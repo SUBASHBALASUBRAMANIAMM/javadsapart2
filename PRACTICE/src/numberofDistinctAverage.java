@@ -12,7 +12,7 @@ public class numberofDistinctAverage {
         int end = arr.length-1;
         int ind =0;
         while(start<end){
-            sum = (float)(arr[start] + arr[end])/2;
+            sum = (float)(arr[start] + arr[end]);
             System.out.println(sum);
             res[ind]=sum;
             start++;
