@@ -18,7 +18,7 @@ public class MaximumSumamongallrotations {
                 }
                 //System.out.println(sum);
                 if(max<sum){
-                    max = sum;
+                   max = sum;
                 }
 
             }

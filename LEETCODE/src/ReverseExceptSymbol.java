@@ -3,11 +3,7 @@ public class ReverseExceptSymbol {
     // talently question
     public static void main(String [] args){
         Scanner in = new Scanner(System.in);
-        String inp = "";
-        inp +=in.nextLine();
-        in.close();
-
-
+        String inp = in.nextLine();
         char[] input = inp.toCharArray();
         int start=0;
         int end = inp.length()-1;
