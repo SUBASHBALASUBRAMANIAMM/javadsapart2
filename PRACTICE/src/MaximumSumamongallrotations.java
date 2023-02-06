@@ -35,6 +35,7 @@ public class MaximumSumamongallrotations {
         arr[i] = temp1;
         temp1 = temp2;
         }
+            System.out.println(Arrays.toString(arr));
         }
 
 }
