@@ -1,0 +1,1 @@
+This folder is consist of oops notes and code which was taken during  learning oops concept.
