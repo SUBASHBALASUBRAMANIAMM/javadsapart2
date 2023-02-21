@@ -1,7 +1,7 @@
 package inheritance;
 
 public class Box {
-    double length;
+   private double length;
     double height;
     double width;
 
@@ -16,9 +16,11 @@ public class Box {
         this.height =side;
         this.width =side;
         this.length = side;
+        //double =weight;
     }
 
    Box(double length, double height, double width) {
+        super(); // Object class
         this.length = length;
         this.height = height;
         this.width = width;
@@ -28,6 +30,7 @@ public class Box {
         this.height = old.height;
         this.length= old.length;
     }
+
     static void displayinfo(){
         System.out.println("running the box");
     }

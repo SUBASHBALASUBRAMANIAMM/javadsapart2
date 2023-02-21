@@ -8,14 +8,15 @@ public class Hashmap {
         hm.put(1,"subash");
         hm.put(2,"logu");
         System.out.println(hm.values());
+        Set<Integer> ns = hm.keySet();
         for(int var:ns){
             System.out.println(var);
         }
-        int arr[] = {1,2,3,4,5};
-        for(int var:arr){
-           // System.out.println(var);
-        }
-
+//        int arr[] = {1,2,3,4,5};
+//        for(int var:arr){
+//           System.out.println(var);
+//        }
+//
 
     }
 }
