@@ -20,15 +20,17 @@ public class Main {
 
         //java allows the parent class reference and child class object but not vice versa for ecampl
 
-       // Box box5 = new BoxWeight(1,2,3,4);// this is allowed
+        Box box5 = new BoxWeight(1,2,3,4);// this is allowed
+    
         // BoxWeight box6 = new Box(1,2,3); -> this is not allowed as weight cant be initialised from Box(parent) object
-        BoxPrice box7  = new BoxPrice();
-        box7.cost = 4;
-        box7.weight=8;
-        System.out.println(box7.weight);
-        BoxPrice box8  = new BoxPrice(box7);
-        System.out.println(box8.weight);
 
+//        BoxPrice box7  = new BoxPrice();
+//        box7.cost = 4;
+//        box7.weight=8;
+//        System.out.println(box7.weight);
+//        BoxPrice box8  = new BoxPrice(box7);
+//        System.out.println(box8.weight);
+//
 
 
     }
