@@ -11,4 +11,8 @@ public class Singleton {
         }
         return instance;
     }
+
+    public static  void m(){
+        System.out.println("hi");
+    }
 }

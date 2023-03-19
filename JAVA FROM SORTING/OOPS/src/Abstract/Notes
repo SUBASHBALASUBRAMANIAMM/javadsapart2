@@ -1,0 +1,9 @@
+Abstract will only provide the name or initialisation of method not the body of the method it is child's responsibility to provide the body
+the child must override the the method which defined as abstract
+if any one method is abstract then the whole class must be defined as abstract
+
+syntax
+abstract void fun-name(param);
+
+we cant create object of an abstract class as normal method if we have to do so we should override those abstract method
+we cant create a abstract constructor
