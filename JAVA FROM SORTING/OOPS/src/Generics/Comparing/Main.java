@@ -26,8 +26,8 @@ public class Main {
 //        Arrays.sort(arr);
 //        Arrays.sort(arr, new Comparator<Student>() {
 //            @Override
-//            public int compare(Student o1, Student o2) {
-//                return (int)(o1.marks-o2.marks);
+//           are(Student o1, Student o2) {
+////                return (int)(o1.mar public int compks-o2.marks);
 //            }
 //        });
 
