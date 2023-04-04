@@ -6,26 +6,23 @@ public class SuccessfulPairsofSpellsandPotions {
         int[] potions = {1,2,3,4,5};
         int success = 7;
         int[] arr = new int[spells.length];
-        int least =0;
         Arrays.sort(potions);
-        for(int i =0;i<spells.length;i++){
-            least =0;
-            for(int j =0;j<potions.length;j++){
-                long check = (long)spells[i]*potions[j];
-                if( check>= success){
-                    least = j;
-                    break;
+        int max =0;
+        for(int i=0;i<spells.length;i++){
+            max =0;
+            int left =0;
+            int right = potions.length-1;
+            while(left<=right){
+                int mid = (left + right)/2;
+                if(spells[i]*potions[mid]>=success){
+                    max = potions.length - mid;
+                    right = mid-1;
+                }else{
+                    left = mid+1;
                 }
             }
-            if(least >0){
-                arr[i] = potions.length - least;
-            }
-            else{
-                arr[i] = least;
-            }
-
+            arr[i] = max;
         }
         System.out.println(Arrays.toString(arr));
-
     }
 }
