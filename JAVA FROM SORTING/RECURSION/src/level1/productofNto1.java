@@ -2,13 +2,14 @@ package level1;
 
 public class productofNto1 {
     public static void main(String[] args) {
-        String s = "anagram";
-        int[] arr = new int[26];
-        arr[s.charAt(0) - 'a'] = 1;
-        System.out.println(arr[0]);
-    }
-    static void product(int n){
 
+        System.out.println(product(5));
+    }
+    static int product(int n){
+    if(n <= 1){
+        return 1;
+    }
+    return n * product(n-1);
 
     }
 }
