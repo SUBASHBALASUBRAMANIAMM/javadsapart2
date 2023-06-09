@@ -14,8 +14,6 @@ public class WordPattern {
         for(int i=0;i<str.length;i++){
             if(hm.containsKey(str[i])){
                 if(hm.get(str[i]).equals(pat[i])==false){
-//                    System.out.println(hm.get(str[i]));
-//                    System.out.println(pat[i]);
                     System.out.println("false");
                     break;
 
