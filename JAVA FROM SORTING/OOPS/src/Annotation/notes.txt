@@ -1,0 +1,3 @@
+Annotation
+these are extra information given to code such that already written code is not affected
+there are two type of Annotation -> Builtin,Custom Annotation

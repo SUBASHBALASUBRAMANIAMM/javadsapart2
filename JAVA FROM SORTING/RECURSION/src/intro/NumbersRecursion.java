@@ -1,6 +1,6 @@
 package intro;
 
-public class NumbersRecursion {
+public class  NumbersRecursion {
     public static void main(String[] args) {
         printnum(1);
     }

@@ -24,7 +24,8 @@ public class LL {
             System.out.print(temp.value + " -> ");
             temp = temp.next;
         }
-        System.out.print("END");
+        System.out.print("END" );
+        System.out.println();
     }
     public void insertAtEnd(int val){
         Node node = new Node(val);
@@ -38,6 +39,14 @@ public class LL {
     }
     public void insertAt(int pos,int val){
         Node temp = head;
+        if(pos == 0){
+            insertFirst(val);
+            return;
+        }
+        if(pos == size){
+            insertAtEnd(val);
+            return;
+        }
         for (int i = 1; i <pos ; i++) {
             temp = temp.next;
         }
@@ -45,11 +54,54 @@ public class LL {
         temp.next = node;
         size++;
     }
+
+    public  int  deleteFirst(){
+        int val = head.value;
+        head = head.next;
+        if(head == null) {
+            tail = null;
+        }
+        size--;
+        return val;
+    }
+
+    public int delete(int index){
+        if(index == 0 ){
+            return deleteFirst();
+        }
+        if(index == size -1){
+            return deleteLast();
+        }
+
+        Node prev = get(index - 1);
+        int val = prev.next.value;
+        prev.next = prev.next.next;
+
+        return val;
+    }
+    public int deleteLast(){
+        if(size <= 1){
+            deleteFirst();
+        }
+        Node secondLast = get(size - 2);
+        int val = tail.value;
+        tail = secondLast;
+        tail.next = null;
+        return val;
+    }
+
+    public Node get(int index){
+        Node temp = head;
+        for(int i = 0; i < index; i++){
+            temp = temp.next;
+        }
+        return temp;
+    }
     private class Node{
         private int value;
         private Node next;
 
-        public Node(int value) {
+        public  Node(int value) {
             this.value = value;
         }
 

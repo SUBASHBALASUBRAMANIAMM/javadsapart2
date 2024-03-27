@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BUBBLE SORT/BUBBLE SORT.iml" filepath="$PROJECT_DIR$/BUBBLE SORT/BUBBLE SORT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CYCLIC SORT/CYCLIC SORT.iml" filepath="$PROJECT_DIR$/CYCLIC SORT/CYCLIC SORT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/INSERTION SORT/INSERTION SORT.iml" filepath="$PROJECT_DIR$/INSERTION SORT/INSERTION SORT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA FROM SORTING.iml" filepath="$PROJECT_DIR$/.idea/JAVA FROM SORTING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LINKED LIST/LINKED LIST.iml" filepath="$PROJECT_DIR$/LINKED LIST/LINKED LIST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maths for DSA/Maths for DSA.iml" filepath="$PROJECT_DIR$/Maths for DSA/Maths for DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/OOPS/OOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PATTERN PRINTING/PATTERN PRINTING.iml" filepath="$PROJECT_DIR$/PATTERN PRINTING/PATTERN PRINTING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RECURSION/RECURSION.iml" filepath="$PROJECT_DIR$/RECURSION/RECURSION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SELECTION SORT/SELECTION SORT.iml" filepath="$PROJECT_DIR$/SELECTION SORT/SELECTION SORT.iml" />
+    </modules>
+  </component>
+</project>
